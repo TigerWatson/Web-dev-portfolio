@@ -4,36 +4,89 @@
     box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-nav {
-    display: flex;
+body    {
+    background-color: black;
+}
+.logo-text  {
     align-items: center;
-    padding: 0rem calc((100vw - 1300px) / 2);
-    background-color: #0d1b2a;
-    height: 90px;
-    justify-content: space-between;
+    display: flex;
+    color: #c5c6d0;
+}
 
+nav {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    height: 150px;
+    border: solid 2px #c5c6d0;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
 }
-nav a    {
+nav a  {
+    color: #c5c6d0;
+    display: inline-flex;
+    padding: 1.5rem 3rem;
+    margin: 1rem;
     text-decoration: none;
-    color: #e0e1dd;
-    padding: 0rem 2rem;
-}
-nav h1   {
-    color: #e0e1dd;
+    font-size: 18px;
 }
 nav a:hover {
+    color: #fff;
+    cursor: pointer;
+}
+.hero   {
+    background-color: black;
+}
+body a{
+    text-decoration: none;
+}
+.hero-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 95vh;
     color: white;
-    font-weight: 500;
 }
-body   {
-    background-color: #0d1b2a;
+.lambo a img{
+    padding-top: 60px;
 }
-.column-left h2 {
-    color: #e0e1dd;
-    padding: 2rem;  
+.ferrari a img{
+    padding-left: 40px;
 }
-.column-left  {
-    justify-content: center;
+.ferrari p{
     text-align: center;
-    margin: 3rem;
+    color: #fff;
+    padding: 30px;
+    margin-left: 7rem;
+    height: auto;
+    width: 400px;
+}
+.lambo p{
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+    margin-left: 210px;
+    height: auto;
+    width: 400px;
+}
+.bugatti p{
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+    margin-left: 7rem;
+    height: auto;
+    width: 400px;
+}
+.mercedes p{
+    text-align: center;
+    color: #fff;
+    margin-left: 250px;
+    height: auto;
+    width: 400px;
+}
+.bugatti    {
+    margin-top: 3rem;
+}
+.mercedes   {
+    margin-top: 5rem;
 }
